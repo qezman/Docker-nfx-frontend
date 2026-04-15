@@ -1,0 +1,24 @@
+# version: '3.8'
+# services:
+#   frontend:
+#     image: 663291012203.dkr.ecr.us-east-1.amazonaws.com/netflix_frontend:latest
+#     ports:
+#       - "3000:3000"
+#     networks:
+#       - dev-net
+#     mem_limit: 512m
+#     cpus: 0.5
+
+#   backend:
+#     image: 663291012203.dkr.ecr.us-east-1.amazonaws.com/netflix_backend:latest
+#     ports:
+#       - "8080:8080"
+#     environment:
+#       - MONGO_URI=mongodb+srv://Kazeem:Test123@cluster0.ej7yvmu.mongodb.net/
+#       - MONGO_DB_NAME=moviedb
+#     networks:
+#       - dev-net
+
+# networks:
+#   dev-net:
+#     driver: bridge
